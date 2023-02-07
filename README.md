@@ -1,6 +1,6 @@
 # Favorite Movie App
 
-This movie app allows you to create a list of your favorite movies or TV shows and filter them by title or rating.
+This movie app allows us to create a list of our favorite movies or TV shows, view their descriptions and trailers, and filter them by title or rating.
 
 ## Components
 
@@ -16,10 +16,15 @@ MovieList component displays a list of movies filtered by title and rating. It a
 
 Filter component is used to filter movies by title and rating. The component consists of two inputs: one for title and one for rating.
 
+### Description
+
+The Description component displays a movie's description and trailer.
+
 ## Features
 
 - Add a new movie to the list
 - Filter movies by title and rating
+- View movie description and trailer
 
 ## Instructions
 
@@ -29,6 +34,8 @@ Filter component is used to filter movies by title and rating. The component con
 4. Navigate to http://localhost:3000 to view the app in your browser.
 5. Add a new movie to the list by filling out the form on the page.
 6. Filter the list of movies by title or rating by using the filter inputs.
+7. Click on a movie card to view its description and trailer.
+8. Navigate back to the home page from the description page.
 
 ## Customization
 
