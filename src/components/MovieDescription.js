@@ -10,9 +10,9 @@ const MovieDescription = () => {
   const posterURL = query.get("posterURL");
   const rate = query.get("rate");
   const trailer = query.get("trailer");
-  console.log(
-    title + "\n" + description + "\n" + posterURL + "\n" + rate + "\n" + trailer
-  );
+//   console.log(
+//     title + "\n" + description + "\n" + posterURL + "\n" + rate + "\n" + trailer
+//   );
 
   const handleDisplay = () => {
     if (!displayTrailer) {
