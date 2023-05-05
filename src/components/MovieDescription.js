@@ -84,7 +84,7 @@ const MovieDescription = () => {
         >
           <center>
             <video
-              src={trailer}
+              src={displayTrailer?trailer:""}
               width="70%"
               height="500px"
               poster={posterURL}
