@@ -69,7 +69,10 @@ const MovieDescription = () => {
 
         <button className="btn-trailer" onClick={handleDisplay}>
           <i className="far fa-play-circle"></i>
-          <span> Watch trailer / Hide Trailer</span>
+         {displayTrailer?
+          <span> Hide Trailer</span>:
+          <span> Watch trailer</span>
+        }
         </button>
         <div
           className="movie-trailler"
