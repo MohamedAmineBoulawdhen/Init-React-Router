@@ -31,7 +31,7 @@ const Filter = ({ movies, filteredMovies, setFilteredMovies }) => {
       return movies
         .filter(
           (item) =>
-            item.title.toLowerCase() === title.toLowerCase() &&
+            item.title.toLowerCase().includes (title.toLowerCase()) &&
             item.rating >= minRating
         )
         .sort((a, b) => {
